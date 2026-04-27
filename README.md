@@ -117,6 +117,52 @@ PDBReader ensures safe and deterministic symbol file handling by:
 
 ---
 
+## 📜 Dependencies & Licenses
+
+PDBReader is built on top of several Microsoft-maintained libraries for reading and interpreting debugging symbols and metadata.
+
+---
+
+### 📦 Microsoft.DiaSymReader
+- **License:** MIT  
+- **Authors:** Microsoft  
+- **Project URL:** https://github.com/dotnet/symreader  
+
+Used for reading and interpreting symbol reader abstractions across different PDB formats.
+
+---
+
+### 📦 Microsoft.DiaSymReader.Native
+- **License:** Microsoft .NET Library License  
+- **Authors:** Microsoft  
+- **Project URL:** https://github.com/dotnet/roslyn  
+
+Provides support for reading **native (Windows DIA-based) PDB files**, commonly used in C++ and .NET Framework assemblies.
+
+---
+
+### 📦 Microsoft.DiaSymReader.PortablePdb
+- **License:** Apache-2.0  
+- **Authors:** Microsoft  
+- **Project URL:** https://github.com/dotnet/symreader-portable  
+
+Enables parsing of **Portable PDB files**, used in modern .NET (Core / 5+ / 6+ / 7+).
+
+---
+
+### 📦 System.Reflection.Metadata
+- **License:** MIT  
+- **Authors:** Microsoft  
+- **Project URL:** https://dot.net/  
+
+Provides low-level access to .NET metadata structures, including assemblies, references, and debugging information.
+
+---
+
+## ⚖️ Summary
+
+These dependencies are all officially maintained by Microsoft and the .NET Foundation ecosystem and are used strictly for symbol resolution and metadata inspection within PDBReader.
+
 ## 📄 License
 
 This tool is provided for development and debugging utility purposes.
