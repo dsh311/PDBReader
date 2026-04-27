@@ -24,9 +24,10 @@ Software, subject to the MIT License terms.
 
 ## 📦 Microsoft.DiaSymReader.Native
 
-- **License:** Microsoft .NET Library License  
-- **Authors:** Microsoft  
-- **Project URL:** https://github.com/dotnet/roslyn  
+- License: Microsoft .NET Library License  
+- Authors: Microsoft  
+- Project URL: https://github.com/dotnet/roslyn  
+- License Text: https://dotnet.microsoft.com/en-us/dotnet_library_license.htm
 
 ### Notice
 This component is governed by the Microsoft .NET Library License.
