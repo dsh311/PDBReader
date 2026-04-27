@@ -162,7 +162,3 @@ Provides low-level access to .NET metadata structures, including assemblies, ref
 ## ⚖️ Summary
 
 These dependencies are all officially maintained by Microsoft and the .NET Foundation ecosystem and are used strictly for symbol resolution and metadata inspection within PDBReader.
-
-## 📄 License
-
-This tool is provided for development and debugging utility purposes.
